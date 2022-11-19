@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gstore/Inscription.dart';
 import 'package:gstore/dmc5.dart';
 import 'package:gstore/game_card.dart';
+import 'package:gstore/login.dart';
 
 import 'game.dart';
 
 void main() {
-  runApp(Inscription());
+  // runApp(Inscription());
   //runApp(Dmc5(Game("assets/dmc5.jpg", "Devil May Cry 5", 500, "Desc Desc Desc Desc Desc Desc", 100)));
+  runApp(Login());
 }
 
 class MyApp extends StatefulWidget {
